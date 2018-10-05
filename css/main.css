@@ -1,0 +1,36 @@
+.list-complete-item {
+    transition: all 0.6s;
+}
+.list-complete-enter, .list-complete-leave-to
+    /* .list-complete-leave-active for below version 2.1.8 */ {
+    opacity: 0;
+}
+.list-complete-leave-active {
+    transition: opacity .9s
+}
+.ckcsu {
+    text-align: center;
+    font-family: "Courier New",sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+}
+p{
+    font-family: "Microsoft YaHei UI",sans-serif;
+    font-size: 1.2em;
+}
+button,nav,.answer{
+    font-size :1.2em;
+}
+.ha{
+    font-size:1.8em;
+}
+.smaller{
+    font-size:1em;
+}
+div{
+    word-break:break-all;
+}
+.foot-left{
+    font-weight: 600;
+    color:dodgerblue;
+}
